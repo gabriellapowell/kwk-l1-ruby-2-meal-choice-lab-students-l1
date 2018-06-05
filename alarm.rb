@@ -5,8 +5,8 @@
 
 time.now.hour #ruby specific key word for time
 
-if time.now.hour is >= 6 && time.now.hour <= 11 puts "GOOD MORNING AMERICA!"
-  elsif
+if time.now.hour >= 6 && time.now.hour <= 11 puts "GOOD MORNING AMERICA!"
+  elsif time.now.hour >= 11 && time.now.hour <= 3 puts "Good Afternoon."
   elsif
 else
   
