@@ -6,4 +6,7 @@
 time.now.hour #ruby specific key word for time
 
 if time.now.hour is >= 6 && time.now.hour <= 11 puts "GOOD MORNING AMERICA!"
-  otherwise if time.now.hour 
+  elsif
+  elsif
+else
+  
