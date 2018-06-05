@@ -5,8 +5,13 @@
 
 time.now.hour #ruby specific key word for time
 
+puts "What time is it?"
+
+def alarm(time.now.hour)
 if time.now.hour >= 6 && time.now.hour <= 11 puts "GOOD MORNING AMERICA!"
-  elsif time.now.hour >= 11 && time.now.hour <= 3 puts "Good Afternoon."
-  elsif
-else
+  elsif time.now.hour >= 11 && time.now.hour <= 15 puts "Good Afternoon."
+end 
   
+  
+  
+alarm (6)
